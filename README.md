@@ -17,6 +17,15 @@ Mentor: Neela Santhosh Kumar
 
 Realtime Chat App
 Real-Time Chat Application
+
+OUTPUT OF THE CODE
+
+
+![171355892-97404d20-c193-433e-be87-6ba4b6d71a94](https://github.com/user-attachments/assets/163ad78a-409d-4cf0-904e-38ce5a9d57d4)
+
+
+
+
 Project Overview
 This project involves building a fully functional real-time chat application using WebSockets for instant communication and a front-end framework such as Vue.js or React.js for a modern and responsive user interface. The application is designed to deliver a seamless chat experience by enabling users to send and receive messages in real-time, ensuring low-latency interaction.
 
