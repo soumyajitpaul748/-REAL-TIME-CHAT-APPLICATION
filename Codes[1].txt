@@ -61,4 +61,16 @@ cd MyAWS
 dir
 
 
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash
+sudo apt install nodejs
+git clone link
+cd directory 
+npm install
+node index.js
+
+
+
 
