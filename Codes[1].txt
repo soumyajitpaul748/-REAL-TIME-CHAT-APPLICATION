@@ -1,0 +1,64 @@
+MAIN (write sudo in terminal)
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+
+
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/arpan031/Arpan_031_EC2.git (nijer link)
+cd Arpan_031_EC2 (nijer directory)
+npm install
+node index.js
+
+
+
+
+
+
+cd /
+ls
+cd etc
+cd nginx
+cd sites-available 
+ls
+sudo chmod 777 html
+nano default 
+                proxy_pass http://localhost:4000;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection 'Upgrade';
+                proxy_set_header Host $host;
+                proxy_cache_bypass $http_upgrade;
+sudo systemctl restart nginx
+
+
+git init
+dir
+git add .
+git status
+git config --global user.email soumyajitpaul748@gmail.com
+git config --global user.name
+git commit -m"Done"
+git remote add origin link
+git push -u origin master
+
+git clone link
+cd MyAWS
+dir
+
+
+
